@@ -1,0 +1,17 @@
+dist/
+build/
+nbproject/
+
+# Escludi file compilati
+*.class
+
+# Escludi file di log
+*.log
+
+# Escludi configurazioni IDE specifiche
+*.iml
+.idea/
+.vscode/
+
+
+config.properties

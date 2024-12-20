@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ParametriDiConfigurazione">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nRigheTabella" type="xs:integer"/>
+                <xs:element name="difficoltaMin" type="xs:integer"/>
+                <xs:element name="difficoltaMax" type="xs:integer"/>
+                <xs:element name="nUltimiGiorniGrafico" type="xs:integer"/>
+                <xs:element name="font" type="xs:string"/>
+                <xs:element name="dimensioneFont">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="valore" type="xs:integer"/>
+                        </xs:sequence>
+                        <xs:attribute name="unita" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="coloreBackground" type="xs:string"/>
+                <xs:element name="usernameDBMS" type="xs:string"/>
+                <xs:element name="IPDBMS" type="xs:string"/>
+                <xs:element name="passwordDBMS" type="xs:string"/>
+                <xs:element name="portaDBMS" type="xs:integer"/>
+                <xs:element name="IPClient" type="xs:string"/>
+                <xs:element name="IPServerLog" type="xs:string"/>
+                <xs:element name="portaServerLog" type="xs:integer"/>        
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

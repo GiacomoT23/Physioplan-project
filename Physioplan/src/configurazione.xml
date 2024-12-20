@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParametriDiConfigurazione xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+    <nRigheTabella>6</nRigheTabella>
+    <difficoltaMin>0</difficoltaMin>
+    <difficoltaMax>10</difficoltaMax>
+    <nUltimiGiorniGrafico>1</nUltimiGiorniGrafico>
+    <font>Arial</font>
+    <dimensioneFont unita="px">
+        <valore>15</valore>
+    </dimensioneFont>
+    <coloreBackground>white</coloreBackground>
+    <usernameDBMS>root</usernameDBMS>
+    <IPDBMS>127.0.0.1</IPDBMS>
+    <passwordDBMS></passwordDBMS>
+    <portaDBMS>3307</portaDBMS>
+    <IPClient>127.0.0.1</IPClient>
+    <IPServerLog>127.0.0.1</IPServerLog>
+    <portaServerLog>8080</portaServerLog>
+</ParametriDiConfigurazione>
